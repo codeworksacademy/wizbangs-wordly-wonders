@@ -1,5 +1,5 @@
-CodeWorks Tech Night
-====================
+CodeWorks Intro to Web Development
+==================================
 
 <div align="center">
   <img src="assets/img/shop-logo.png" height="250">
