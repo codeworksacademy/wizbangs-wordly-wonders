@@ -16,8 +16,7 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body>
-
+<body id='the-body'>
   <header>
     <nav>
       <div class="store-logo">
@@ -39,9 +38,8 @@
         <div class="wizbang-text">
           <h2>Wizbang The Wonderful</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem magnam esse aut animi nemo
-            eius
-            facilis dignissimos id recusandae. Praesentium in incidunt corporis accusantium quia est tenetur veritatis
-            minima.</p>
+            eius facilis dignissimos id recusandae. Praesentium in incidunt corporis accusantium quia est tenetur
+            veritatis minima.</p>
           <ul>
             <li>lorem5</li>
             <li>lorem5</li>
@@ -50,8 +48,8 @@
         </div>
       </div>
     </section>
-    <section class="goods">
-      <div class="good">
+    <section class="goods" id="goods">
+      <!-- <div class="good">
         <img src="/assets/img/boots.png" alt="boots">
         <h5>Cozy Boots</h5>
         <p>These boots were made for walking, and thats what you'll do</p>
@@ -90,28 +88,30 @@
         <img src="/assets/img/bag.png" alt="bag">
         <h5>Bag of Holding</h5>
         <p>Where are you going to keep all of your things without a bag such as this</p>
-      </div>
+      </div> -->
     </section>
   </main>
   <!-- start Offcanvas -->
   <section>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-      <div class="offcanvas-header">
+      <div class="offcanvas-header bg-warning">
         <h5 id="offcanvasRightLabel">Your Bag</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body">
+      <div class="offcanvas-body d-flex flex-column justify-content-between">
         <!-- TODO Draw added items into the cart -->
-        <div id="cart"></div>
+        <div id="cart">
+        </div>
+        <div>
+          <button class="btn btn-warning" onclick="checkout()">Checkout</button>
+        </div>
       </div>
     </div>
   </section>
   <!-- end Offcanvas -->
-
   <footer>
     <span>Made with ☄️🧙‍♂️</span>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
