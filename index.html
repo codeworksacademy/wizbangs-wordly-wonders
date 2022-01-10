@@ -48,43 +48,43 @@
         </div>
       </div>
     </section>
-    <section class="goods" id="goods">
-      <!-- <div class="good">
+    <section class="products" id="products">
+      <!-- <div class="product">
         <img src="/assets/img/boots.png" alt="boots">
         <h5>Cozy Boots</h5>
         <p>These boots were made for walking, and thats what you'll do</p>
       </div>
-      <div class="good">
+      <div class="product">
         <img src="/assets/img/bow.png" alt="bow">
         <h5>Bow</h5>
         <p>Ranged attacks, Stay safe use a pointed stick from afar</p>
       </div>
-      <div class="good">
+      <div class="product">
         <img src="/assets/img/dagger.png" alt="dagger">
         <h5>Eagle's Talon</h5>
         <p>Fly through your enemies with this feathered edge. </p>
       </div>
-      <div class="good">
+      <div class="product">
         <img src="/assets/img/helm.png" alt="helm">
         <h5>Horned Helm</h5>
         <p>A nice horned helm be careful with the color red when wearing</p>
       </div>
-      <div class="good">
+      <div class="product">
         <img src="/assets/img/ration.png" alt="ration">
         <h5>Rations</h5>
         <p>Yum Yum, You are going to need to eat on your adventure. Take this!</p>
       </div>
-      <div class="good">
+      <div class="product">
         <img src="/assets/img/ring.png" alt="ring">
         <h5>Mysterious Ring</h5>
         <p>There is probably some left over magic in this ring purchase it to identify</p>
       </div>
-      <div class="good">
+      <div class="product">
         <img src="/assets/img/rope.png" alt="rope">
         <h5>Rope</h5>
         <p>No adventurer is complete without a bundle of sturdy rope</p>
       </div>
-      <div class="good">
+      <div class="product">
         <img src="/assets/img/bag.png" alt="bag">
         <h5>Bag of Holding</h5>
         <p>Where are you going to keep all of your things without a bag such as this</p>
@@ -98,12 +98,13 @@
         <h5 id="offcanvasRightLabel">Your Bag</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body d-flex flex-column justify-content-between">
+      <div class="offcanvas-body p-0 d-flex flex-column justify-content-between">
         <!-- TODO Draw added items into the cart -->
         <div id="cart">
         </div>
-        <div>
-          <button class="btn btn-warning" onclick="checkout()">Checkout</button>
+        <div class="bg-dark p-3 d-flex align-items-center justify-content-between text-light">
+          <h4 id="total">Total: 0 GP</h4>
+          <button class="btn btn-outline-warning" onclick="checkout()">Checkout</button>
         </div>
       </div>
     </div>
